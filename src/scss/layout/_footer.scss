@@ -1,0 +1,17 @@
+.footer-container {
+  background-color: #304268;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu-item {
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: $color;
+}
+li {
+  text-decoration: none;
+}

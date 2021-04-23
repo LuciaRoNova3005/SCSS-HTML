@@ -1,0 +1,13 @@
+.container-reason {
+  background-color: #eff9ff;
+  margin: 30px 15px 0 15px;
+}
+.reason {
+  text-transform: capitalize;
+  text-align: center;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 40px 200px 40px;
+}

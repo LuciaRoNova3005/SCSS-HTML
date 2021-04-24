@@ -9,15 +9,20 @@
   text-align: center;
 }
 .tittle {
+  font-family: $font-main;
   margin-top: 284px;
   color: $color;
   font-size: 42px;
   text-transform: uppercase;
   line-height: 1.31;
+  font-style: bold;
 }
 .hero-text {
+  font-size: 16px;
   color: $color;
   margin-top: 10px;
+  font-weight: normal;
+  font-family: Roboto;
 }
 .button-hero {
   margin-top: 45px;

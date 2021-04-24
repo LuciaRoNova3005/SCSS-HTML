@@ -5,9 +5,14 @@
 .reason {
   text-transform: capitalize;
   text-align: center;
+  padding-bottom: 45px;
 }
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 30px 1fr 30px 1fr 30px 1fr;
+  grid-template-columns: 180px;
+  grid-template-rows: 3fr;
+  grid-gap: 45px;
+}
+.reasontext {
+  color: #000000;
 }

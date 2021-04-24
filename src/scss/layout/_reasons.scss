@@ -1,19 +1,18 @@
 .container-reason {
   background-color: #eff9ff;
   padding: 30px 15px 60px 15px;
+  text-align: center;
 }
 .reason {
   text-transform: capitalize;
-  text-align: center;
   padding-bottom: 45px;
 }
 .wrapper {
   display: grid;
-  grid-template-columns: 180px;
+  grid-template-columns: 184px;
   grid-template-rows: 3fr;
   grid-gap: 45px;
-  text-align: center;
-  align-items: center;
+  justify-content: center;
 }
 .reasontext {
   color: #000000;

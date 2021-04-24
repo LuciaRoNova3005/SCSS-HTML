@@ -24,5 +24,16 @@
   padding: 15px 15px 30px 15px;
 }
 .buttontips {
-  padding-bottom: 45px;
+  text-decoration: none;
+  width: 76px;
+  height: 45px;
+  font-family: $font-main-secunday;
+  color: $coloricon;
+  background-color: $color;
+  border-radius: 22.5px;
+  border: solid 2px $coloricon;
+  margin-bottom: 45px;
+  margin-left: 15px;
+  text-align: center;
+  padding: 0px;
 }

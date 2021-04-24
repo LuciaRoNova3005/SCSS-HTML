@@ -25,5 +25,15 @@
   font-family: $font-main-secunday;
 }
 .button-hero {
+  text-decoration: none;
   margin-top: 45px;
+  background-color: $color;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  text-align: justify;
+}
+.down {
+  width: 20px;
+  height: 11.7px;
 }

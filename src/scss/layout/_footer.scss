@@ -7,6 +7,14 @@
   text-align: center;
   padding-bottom: 45px;
 }
+.button-footer {
+  text-decoration: none;
+  margin-top: 45px;
+  background-color: $color;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+}
 .menu-link {
   text-transform: uppercase;
   list-style-type: none;

@@ -11,6 +11,10 @@
     padding-left: 39px;
     padding-right: 39px;
   }
+  @media all and (min-width: 1200px) {
+    padding-left: 370px;
+    padding-right: 370px;
+  }
 }
 .button-footer {
   text-decoration: none;

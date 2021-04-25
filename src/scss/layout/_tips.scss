@@ -2,17 +2,12 @@
   font-family: $font-main-secunday;
   color: #8ccbea;
   font-size: 14px;
-  line-height: 2.14;
+  line-height: 30px;
   padding-top: 30px;
   text-transform: capitalize;
   @media all and (min-width: 1200px) {
     font-size: 16px;
   }
-}
-.text {
-  color: #4a4a4a;
-  line-height: 1.67;
-  font-family: $font-main-secunday;
 }
 .text-insomnia {
   padding: 15px 0 30px 0;

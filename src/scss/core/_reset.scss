@@ -10,6 +10,9 @@
   font-size: 18px;
   box-sizing: border-box;
   font-family: "Roboto Slab";
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 body {

@@ -11,3 +11,34 @@
     margin-left: 275px;
   }
 }
+.tittle {
+  font-family: $font-main;
+  margin-top: 284px;
+  color: $color;
+  font-size: 42px;
+  text-transform: uppercase;
+  line-height: 1.31;
+  font-style: bold;
+  @media all and (min-width: 768px) {
+    font-size: 80px;
+    line-height: 106px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 100px;
+    line-height: 132pxpx;
+  }
+}
+.tittle-3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: capitalize;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 45px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 32px;
+    line-height: 45px;
+  }
+}

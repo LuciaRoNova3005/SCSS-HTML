@@ -31,6 +31,10 @@
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
+  transition: background-color ease 2s;
+  &:hover {
+    background-color: $coloricon;
+  }
 }
 .down {
   width: 20px;

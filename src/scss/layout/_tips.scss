@@ -14,6 +14,7 @@
 }
 .buttontips {
   text-decoration: none;
+  text-transform: capitalize;
   width: 76px;
   height: 45px;
   font-family: $font-main-secunday;
@@ -25,6 +26,10 @@
   border: solid 2px $coloricon;
   margin-bottom: 45px;
   text-align: center;
+  transition: color ease 1s;
+  &:hover {
+    background-color: $color-secondary;
+  }
 
   @media all and (min-width: 768px) {
     width: 91px;

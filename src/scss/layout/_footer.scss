@@ -39,18 +39,26 @@
   @media all and (min-width: 768px) {
     width: 210px;
   }
+  @media all and (min-width: 1200px) {
+    width: 161px;
+  }
 }
 .menu-articles {
   padding: 13px 0 30px 0;
   @media all and (min-width: 768px) {
     padding: 0;
     order: 1;
+    width: 210px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 161px;
   }
 }
 .menu-rrss {
   padding-bottom: 30px;
   @media all and (min-width: 768px) {
     order: 2;
+    width: 210px;
   }
 }
 .small-text {
@@ -74,5 +82,10 @@
     align-items: flex-start;
     justify-content: space-between;
     text-align: initial;
+  }
+}
+.copy {
+  @media all and (min-width: 768px) {
+    width: 210px;
   }
 }

@@ -13,6 +13,10 @@
   grid-template-rows: 3fr;
   grid-gap: 45px;
   justify-content: center;
+  @media all and (min-width: 768px) {
+    grid-template-columns: repeat(3, minmax(121px, 1fr));
+    grid-template-rows: 1fr;
+  }
 }
 .reasontext {
   color: #000000;

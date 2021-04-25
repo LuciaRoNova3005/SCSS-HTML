@@ -1,30 +1,31 @@
 # Lucía Rodríguez Nova: Evaluación Final Módulo 1
 
-Este proyecto consite en la creación de una página y en su adecuación para los distintos dispositovos tablet y mobiel.
+This project consists of the creation of a page and its adaptation for the different tablet and mobile devices.
 
-Este proyecto incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más, esto nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+This project includes an HTML template engine, the SASS preprocessor and a local server and many other things, this helps us to work more comfortably, it automates tasks.
 
-Hay 3 tipos de ficheros y carpetas:
+There are 3 types of files and folders:
 
-- Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto.
-- La carpeta `src/`: son los ficheros de la página web, como HTML, CSS, JS...
-- Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
+-The files that are loose in the repository root, like gulpfile.js, package.json... are the project configuration.
+
+- The `src/` folder: these are the web page files, such as HTML, CSS, JS...
+- The `public/` and `docs/` folders,which are automatically generated when we start the project. The Kit reads the files inside `src/`, processes them and generates them inside `public/` and `docs/`.
 
 ## Guía de inicio rápido
 
-> **NOTA:** Instalar previamente [Node JS](https://nodejs.org/) para trabajar con este repo:
+> ** NOTE: ** Install previously [Node JS](https://nodejs.org/) to work with this repo:
 
-### Pasos a seguir para arrancar el proyecto desde tu ordenador:
+### Steps to follow to start the project from your computer::
 
-1. Crear un nuevo repositorio y añade los archivos descargados.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+1. Create a new repository and add the downloaded files.
+1. ** Open a terminal ** in the root folder of your repository.
+1. ** Install the local dependencies ** by executing the command in the terminal:
 
 ```bash
 npm install
 ```
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que lo abras** Para ello ejecuta el comando:
+Once we have installed the dependencies, we are going to start the project. ** The project must be started every time you open it ** To do this, execute the command:
 
 ```bash
 npm start
@@ -32,23 +33,23 @@ npm start
 
 Este comando:
 
-- **Abre una ventana de Chrome y muestra la página web**
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
+- **Open a Chrome window and show the web page**
+- Also ** observe ** all the files that are inside the `src /` folder, so that every time you modify a file ** it refreshes your page in Chrome **.
+- It also ** processes the ** HTML, SASS / CSS and JS files and ** generates and saves them in the `public /` ** folder. For example:
 
-Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
+After executing `npm start` you can start to edit all the files that are inside the`src /`folder and program comfortably.
 
-### Pasos para publicar el proyecto en GitHub Pages:
+### Steps to publish the project on GitHub Pages::
 
-Para generar la página para producción ejecuta el comando:
+To generate the page for production run the command:
 
 ```bash
 npm run docs
 ```
 
-Y a continuación:
+And then:
 
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
+1. Upload the `docs /` folder that was just generated to your repo..
 
 ```bash
 git add -A
@@ -56,7 +57,7 @@ git commit -m "commit message"
 git push
 ```
 
-Además, los comandos:
+Also, the commands:
 
 ```bash
 npm run push-docs
@@ -68,28 +69,26 @@ o
 npm run deploy
 ```
 
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón.
+They are a shortcut that generates the production version and pushes the `docs /` folder at once.
 
-## Flujo de archivos con Gulp
+## File flow with Gulp
 
-Estas tareas de Gulp producen el siguiente flujo de archivos:
+These Gulp tasks produce the following file stream:
 
 ![Gulp flow](./gulp-flow.png)
 
 ## `gulpfile.js` y `config.json`
 
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
+Our ** gulpfile.js ** uses the configuration file `config.json` with the paths of the files to generate / observe.
 
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
+In this way we separate the actions that are in `gulpfile.js` from the configuration of the actions that are in` config.json`.
 
-## Estructura de carpetas
-
-La estructura de carpetas:
+## Folder structure
 
 ```
 src
  ├─ images
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
+ ├─ js // the files in this folder are concatenated in the main.js file and this is saved in public/main.js
  |  ├─ main.js
  |  └─ events.js
  ├─ scss
@@ -99,6 +98,6 @@ src
     └─ partials
 ```
 
-## Falta algo?
+## Something is missing??
 
-Cualquier duda o sugerencia será bien recibida!
+Any questions or suggestions or advice will be well received!

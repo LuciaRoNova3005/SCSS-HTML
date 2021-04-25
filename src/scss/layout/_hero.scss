@@ -33,7 +33,7 @@
   border-radius: 22.5px;
   transition: background-color ease 2s;
   &:hover {
-    background-color: $coloricon;
+    background-color: $color-secondary;
   }
   @media all and (min-width: 768px) {
     margin-top: 30px;

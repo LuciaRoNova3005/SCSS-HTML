@@ -42,6 +42,15 @@
     line-height: 45px;
   }
 }
+.tittle-4 {
+  font-family: $font-main-secunday;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
+}
 .text {
   color: #4a4a4a;
   line-height: 30px;

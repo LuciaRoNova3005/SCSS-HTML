@@ -3,7 +3,7 @@
   color: #8ccbea;
   font-size: 14px;
   line-height: 2.14;
-  padding: 30px 0 0 15px;
+  padding-top: 30px;
   text-transform: capitalize;
 }
 .tittle-3 {
@@ -12,16 +12,13 @@
   line-height: 1.25;
   text-transform: capitalize;
 }
-.tips {
-  padding-left: 15px;
-}
 .text {
   color: #4a4a4a;
   line-height: 1.67;
   font-family: $font-main-secunday;
 }
 .text-insomnia {
-  padding: 15px 15px 30px 15px;
+  padding: 15px 0 30px 0;
 }
 .buttontips {
   text-decoration: none;
@@ -33,7 +30,5 @@
   border-radius: 22.5px;
   border: solid 2px $coloricon;
   margin-bottom: 45px;
-  margin-left: 15px;
   text-align: center;
-  padding: 0px;
 }

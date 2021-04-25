@@ -42,10 +42,6 @@
   border: none;
   font-size: 20px;
   margin-top: 45px;
-  transition: color ease 1s;
-  &:hover {
-    background-color: $color-secondary;
-  }
   @media all and (min-width: 768px) {
     width: 210px;
     height: 45px;
@@ -54,4 +50,11 @@
     width: 255px;
     height: 45px;
   }
+}
+.reason-link {
+  text-decoration-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: $font-main-secunday;
+  color: $color;
 }

@@ -25,10 +25,6 @@
   border: solid 2px $coloricon;
   margin-bottom: 45px;
   text-align: center;
-  transition: color ease 1s;
-  &:hover {
-    background-color: $color-secondary;
-  }
 
   @media all and (min-width: 768px) {
     width: 91px;
@@ -39,4 +35,11 @@
     width: 160px;
     height: 45px;
   }
+}
+.buttontips-link {
+  text-decoration-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: $font-main-secunday;
+  color: $coloricon;
 }

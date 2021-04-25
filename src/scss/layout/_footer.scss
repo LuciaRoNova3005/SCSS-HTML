@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 0 0 45px 0;
 }
 .button-footer {
   text-decoration: none;
@@ -24,10 +25,14 @@
   color: white;
   font-family: $font-main-secunday;
   font-size: 16px;
+  line-height: 30px;
   line-height: 1.88;
 }
 .menu-articles {
   padding: 13px 0 30px 0;
+  @media all and (min-width: 768px) {
+    padding: 0;
+  }
 }
 .menu-rrss {
   padding-bottom: 30px;
@@ -36,14 +41,23 @@
   color: $color;
   font-size: 14px;
   font-family: $font-main-secunday;
-  line-height: 2.14;
+  line-height: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 45px;
 }
 .fas {
   color: $coloricon;
+}
+.menu-footer {
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 45px;
+    background-color: red;
+    width: 100%;
+    justify-content: center;
+  }
 }

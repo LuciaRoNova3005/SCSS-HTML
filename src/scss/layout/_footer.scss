@@ -5,15 +5,15 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 45px;
 }
 .button-footer {
   text-decoration: none;
-  margin-top: 45px;
   background-color: $color;
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
+  transform: translate(0, -50%);
+  border: none;
 }
 .menu-link {
   text-transform: uppercase;
@@ -27,7 +27,7 @@
   line-height: 1.88;
 }
 .menu-articles {
-  padding: 60px 0 30px 0;
+  padding: 37px 0 30px 0;
 }
 .menu-rrss {
   padding-bottom: 30px;

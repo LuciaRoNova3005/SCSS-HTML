@@ -2,6 +2,14 @@
   background-color: #eff9ff;
   padding: 30px 15px 60px 15px;
   text-align: center;
+  @media all and (min-width: 768px) {
+    padding-left: 40px;
+    padding-right: 38px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-left: 85px;
+    padding-right: 85px;
+  }
 }
 .reason {
   text-transform: capitalize;

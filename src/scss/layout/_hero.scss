@@ -8,44 +8,45 @@
   justify-content: flex-end;
   align-items: center;
   text-align: center;
-}
-.hero-subtittle {
-  font-size: 16px;
-  color: $color;
-  font-weight: normal;
-  font-family: $font-main-secundary;
+  &__subtittle {
+    font-size: 16px;
+    color: $color;
+    font-weight: normal;
+    font-family: $font-main-secundary;
+    padding-top: 10px;
 
-  @media all and (min-width: 768px) {
-    font-size: 24px;
-  }
-}
-.button-hero {
-  text-decoration: none;
-  margin: 45px 0 53px 0;
-  background-color: $color;
-  width: 45px;
-  height: 45px;
-  border-radius: 22.5px;
-  animation: moveupdown 1s 5;
-  @keyframes moveupdown {
-    from {
-      transform: translateY(0%);
-      background-color: $color;
-    }
-    to {
-      transform: translateY(80%);
-      background-color: $color-secondary;
+    @media all and (min-width: 768px) {
+      font-size: 24px;
     }
   }
+  &__button {
+    text-decoration: none;
+    margin: 45px 0 53px 0;
+    background-color: $color;
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    animation: moveupdown 1s 5;
+    @keyframes moveupdown {
+      from {
+        transform: translateY(0%);
+        background-color: $color;
+      }
+      to {
+        transform: translateY(80%);
+        background-color: $color-secondary;
+      }
+    }
 
-  @media all and (min-width: 768px) {
-    margin: 30px 0 45px 0;
-  }
-  @media all and (min-width: 1200px) {
-    margin: 30px 0 13px 0;
+    @media all and (min-width: 768px) {
+      margin: 30px 0 45px 0;
+    }
+    @media all and (min-width: 1200px) {
+      margin: 30px 0 13px 0;
+    }
   }
 }
-.down {
+.button__down {
   width: 20px;
   height: 11.7px;
   vertical-align: middle;

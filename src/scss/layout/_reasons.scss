@@ -10,6 +10,31 @@
     padding-left: 85px;
     padding-right: 85px;
   }
+  &__button {
+    text-decoration: none;
+    font-family: $font-main-secundary;
+    text-transform: capitalize;
+    border-radius: 22.5px;
+    width: 184px;
+    height: 45px;
+    background-color: $coloricon;
+    color: $color;
+    border: none;
+    font-size: 20px;
+    margin-top: 45px;
+    transition: background-color ease 1s;
+    &:hover {
+      background-color: $color-secondary;
+    }
+    @media all and (min-width: 768px) {
+      width: 210px;
+      height: 45px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 255px;
+      height: 45px;
+    }
+  }
 }
 .tittlereason {
   text-transform: capitalize;
@@ -37,29 +62,4 @@
   font-size: 20px;
   font-family: $font-main-secundary;
   color: $color;
-}
-.reason__button {
-  text-decoration: none;
-  font-family: $font-main-secundary;
-  text-transform: capitalize;
-  border-radius: 22.5px;
-  width: 184px;
-  height: 45px;
-  background-color: $coloricon;
-  color: $color;
-  border: none;
-  font-size: 20px;
-  margin-top: 45px;
-  transition: background-color ease 1s;
-  &:hover {
-    background-color: $color-secondary;
-  }
-  @media all and (min-width: 768px) {
-    width: 210px;
-    height: 45px;
-  }
-  @media all and (min-width: 1200px) {
-    width: 255px;
-    height: 45px;
-  }
 }

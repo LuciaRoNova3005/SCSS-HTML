@@ -14,24 +14,46 @@
     padding-left: 370px;
     padding-right: 370px;
   }
-}
-.button-footer {
-  text-decoration: none;
-  background-color: $color;
-  width: 45px;
-  height: 45px;
-  border-radius: 22.5px;
-  transform: translate(0, -50%);
-  border: none;
-  animation: movedownup 1s 5;
-  @keyframes movedownup {
-    from {
-      transform: translateY(-50%);
-      background-color: $color;
+  &__button {
+    text-decoration: none;
+    background-color: $color;
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    transform: translate(0, -50%);
+    border: none;
+    animation: movedownup 1s 5;
+    @keyframes movedownup {
+      from {
+        transform: translateY(-50%);
+        background-color: $color;
+      }
+      to {
+        transform: translateY(-100%);
+        background-color: $color-secondary;
+      }
     }
-    to {
-      transform: translateY(-100%);
-      background-color: $color-secondary;
+  }
+}
+.menu-footer {
+  @media all and (min-width: 768px) {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: initial;
+  }
+  &__menu-articles {
+    padding: 13px 0 30px 0;
+    @media all and (min-width: 768px) {
+      padding: 0;
+      order: 1;
+      width: 210px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 161px;
     }
   }
 }
@@ -53,17 +75,7 @@
     width: 161px;
   }
 }
-.menu-articles {
-  padding: 13px 0 30px 0;
-  @media all and (min-width: 768px) {
-    padding: 0;
-    order: 1;
-    width: 210px;
-  }
-  @media all and (min-width: 1200px) {
-    width: 161px;
-  }
-}
+
 .menu-rrss {
   padding-bottom: 30px;
   @media all and (min-width: 768px) {
@@ -71,7 +83,7 @@
     width: 210px;
   }
 }
-.small-text {
+.menu-rrss_small-text {
   color: $color;
   font-size: 14px;
   font-family: $font-main-secundary;
@@ -83,17 +95,7 @@
 .fas {
   color: $coloricon;
 }
-.menu-footer {
-  @media all and (min-width: 768px) {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    text-align: initial;
-  }
-}
+
 .copy {
   @media all and (min-width: 768px) {
     width: 210px;

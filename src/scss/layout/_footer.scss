@@ -23,6 +23,10 @@
     transform: translate(0, -50%);
     border: none;
     animation: movedownup 1s 5;
+    transition: background-color ease 1s;
+    &:hover {
+      background-color: $color-secondary;
+    }
     @keyframes movedownup {
       from {
         transform: translateY(-50%);

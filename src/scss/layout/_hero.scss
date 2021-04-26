@@ -13,7 +13,7 @@
   font-size: 16px;
   color: $color;
   font-weight: normal;
-  font-family: $font-main-secunday;
+  font-family: $font-main-secundary;
 
   @media all and (min-width: 768px) {
     font-size: 24px;
@@ -30,9 +30,11 @@
   @keyframes moveupdown {
     from {
       transform: translateY(0%);
+      background-color: $color;
     }
     to {
       transform: translateY(80%);
+      background-color: $color-secondary;
     }
   }
 

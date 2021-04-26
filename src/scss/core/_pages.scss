@@ -56,4 +56,7 @@
   color: $colortextgrey;
   line-height: 30px;
   font-family: $font-main-secundary;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
 }

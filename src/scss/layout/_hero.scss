@@ -26,6 +26,15 @@
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
+  animation: moveupdown 2s 3 ease-in;
+  @keyframes moveupdown {
+    from {
+      transform: translateY(0%);
+    }
+    to {
+      transform: translateY(20%);
+    }
+  }
 
   @media all and (min-width: 768px) {
     margin: 30px 0 45px 0;

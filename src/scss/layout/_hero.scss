@@ -26,13 +26,13 @@
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
-  animation: moveupdown 2s 3 ease-in;
+  animation: moveupdown 1s 5;
   @keyframes moveupdown {
     from {
       transform: translateY(0%);
     }
     to {
-      transform: translateY(20%);
+      transform: translateY(80%);
     }
   }
 

@@ -24,6 +24,17 @@
   border-radius: 22.5px;
   transform: translate(0, -50%);
   border: none;
+  animation: movedownup 1s 5;
+  @keyframes movedownup {
+    from {
+      transform: translateY(-50%);
+      background-color: $color;
+    }
+    to {
+      transform: translateY(-100%);
+      background-color: $color-secondary;
+    }
+  }
 }
 .menu-link {
   text-transform: uppercase;

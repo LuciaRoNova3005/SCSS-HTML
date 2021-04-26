@@ -29,6 +29,13 @@
     line-height: 132pxpx;
   }
 }
+.tittle-2 {
+  font-family: $font-main-secundary;
+  color: $colortitle2;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
 .tittle-3 {
   font-size: 24px;
   font-weight: bold;

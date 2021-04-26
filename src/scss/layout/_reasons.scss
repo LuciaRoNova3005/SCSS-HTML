@@ -1,5 +1,5 @@
 .container-reason {
-  background-color: #eff9ff;
+  background-color: $color-iceblue;
   padding: 30px 15px 60px 15px;
   text-align: center;
   @media all and (min-width: 768px) {
@@ -27,7 +27,7 @@
   }
 }
 .reasontext {
-  color: #000000;
+  color: $colortextblack;
   padding: 2px;
 }
 .button-reason {

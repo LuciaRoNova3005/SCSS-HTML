@@ -27,6 +27,10 @@
     height: 45px;
     border-radius: 22.5px;
     animation: moveupdown 1s 5;
+    transition: background-color ease 1s;
+    &:hover {
+      background-color: $color-secondary;
+    }
     @keyframes moveupdown {
       from {
         transform: translateY(0%);

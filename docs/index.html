@@ -31,7 +31,7 @@
         <li>
           <a href="https://adalab.es/" target="_blank">
             <img
-              class="menu-icon"
+              class="header__menu-icon"
               src="./assets/images/ico-menu.svg"
               alt="menu-icon"
             />
@@ -43,14 +43,14 @@
 
   <body>
     <main>
-      <section class="hero">
+      <section class="hero" id="hero-section">
         <h1 class="tittle">Anonymous <br />Proxy</h1>
-        <p class="hero-subtittle">In hac habitasse platea dictumst</p>
+        <p class="hero__subtittle">In hac habitasse platea dictumst</p>
 
-        <button class="button-hero">
+        <button class="hero__button">
           <a href="./index.html#section-reason">
             <img
-              class="down"
+              class="button__down"
               src="./assets/images/ico-scroll-down.svg"
               alt="Go down"
             />
@@ -65,9 +65,9 @@
           Donec accumsan,nulla ut volutpat porttitor, queam odio tempues felis at,
           luctus ex diam nec lectus. Vivamus semper sodales rutrum
         </p>
-        <button class="buttontips">
+        <button class="buttontip">
           <a
-            class="buttontips-link"
+            class="button__link"
             href="https://www.microsoft.com/es-es/default.aspx/"
             target="_blank"
           >
@@ -77,24 +77,24 @@
       </section>
 
       <section class="container-reason" id="section-reason">
-        <h3 class="tittle-3 reason">3 reason to purchase</h3>
+        <h3 class="tittle-3 tittlereason">3 reason to purchase</h3>
         <div class="wrapper">
           <article class="item 1">
             <h4 class="tittle-4">Ut sed metus</h4>
-            <p class="text reasontext">Lorem ipsum dolor sit amet, consectetur.</p>
+            <p class="text textreason">Lorem ipsum dolor sit amet, consectetur.</p>
           </article>
           <article class="item 2">
             <h4 class="tittle-4">Curabitur ac erat</h4>
-            <p class="text reasontext">Mauris mattis urna quis lorem molestie.</p>
+            <p class="text textreason">Mauris mattis urna quis lorem molestie.</p>
           </article>
           <article class="item 3">
             <h4 class="tittle-4">Morbi dictums</h4>
-            <p class="text reasontext">Aliquam in dolor et dolor tincidunt.</p>
+            <p class="text textreason">Aliquam in dolor et dolor tincidunt.</p>
           </article>
         </div>
-        <button class="button-reason">
+        <button class="container-reason__button">
           <a
-            class="reason-link"
+            class="button__reasonlink"
             href="https://www.youtube.com/watch?v=en2D_5TzXCA"
             target="blank"
             >More reasons</a
@@ -104,13 +104,13 @@
 
     </main>
     <footer class="footer-container">
-      <a href="./index.html">
-      <button class="button-footer">
+      <button class="footer-container__button">
+        <a href="./index.html#hero-section">
           <img src="./assets/images/ico-arrow.svg" alt="Go to start page" />
         </a>
       </button>
       <div class="menu-footer">
-        <nav class="menu-articles">
+        <nav class="menu-footer__menu-articles">
           <ul class="menu-link">
             <li>
               <a class="link" href="https://adalab.es/" target="_blank">articles</a>
@@ -135,7 +135,9 @@
               <a class="link" href="https://adalab.es/" target="_blank">Twitter</a>
             </li>
             <li>
-              <a class="link" href="https://adalab.es/" target="_blank">instagram</a>
+              <a class="link" href="https://adalab.es/" target="_blank"
+                >instagram</a
+              >
             </li>
             <li>
               <a class="link" href="https://adalab.es/" target="_blank"
@@ -144,9 +146,11 @@
             </li>
           </ul>
         </nav>
-        <small class="small-text">
-          <div class="copy">&copy;2021</div>
-          <div class="copy">we <i class="fas fa-heart"></i> components</div>
+        <small class="menu-rrss_small-text">
+          <div class="small-text__copy">&copy;2021</div>
+          <div class="small-text__copy">
+            we <i class="fas fa-heart"></i> components
+          </div>
         </small>
       </div>
     </footer>

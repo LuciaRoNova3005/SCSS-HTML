@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  background-color: #304268;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  &__text {
+    text-align: center;
+  }
+}
+.flex {
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -1,6 +1,9 @@
-# Lucía Rodríguez Nova: Evaluación Final Módulo 1
+# HTML || SASS || RESPONSIVE
 
 This project consists of the creation of a page and its adaptation for the different tablet and mobile devices.
+
+![image](https://user-images.githubusercontent.com/81588630/124919114-1d369f80-dff6-11eb-83aa-90c5ee2d04c6.png)
+
 
 This project includes an HTML template engine, the SASS preprocessor and a local server and many other things, this helps us to work more comfortably, it automates tasks.
 

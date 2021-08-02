@@ -1,6 +1,6 @@
 # Lucía Rodríguez Nova: Evaluación Final Módulo 1
 
-Este proyecto consite en la creación de una página y en su adecuación para los distintos dispositovos tablet y mobiel.
+Este proyecto consite en la creación de una página y en su adecuación para los distintos dispositovos tablet y mobile.
 
 Este proyecto incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más, esto nos ayuda a trabajar más cómodamente, nos automatiza tareas.
 

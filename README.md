@@ -14,7 +14,7 @@ There are 3 types of files and folders:
 - The `src/` folder: these are the web page files, such as HTML, CSS, JS...
 - The `public/` and `docs/` folders,which are automatically generated when we start the project. The Kit reads the files inside `src/`, processes them and generates them inside `public/` and `docs/`.
 
-## Guía de inicio rápido
+## Quick Start Guide
 
 > ** NOTE: ** Install previously [Node JS](https://nodejs.org/) to work with this repo:
 
